@@ -354,8 +354,8 @@ function Get-Link {
     )
 
     switch ($mirror) {
-        $true { return "https://spotx-official.github.io/SpotX" + $endlink }
-        default { return "https://raw.githubusercontent.com/SpotX-Official/SpotX/main" + $endlink }
+        $true { return "https://git-starsh.github.io/SpotX" + $endlink }
+        default { return "https://raw.githubusercontent.com/git-starsh/SpotX/main" + $endlink }
     }
 }
 
