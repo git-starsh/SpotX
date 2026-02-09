@@ -4,7 +4,7 @@
 set param=-new_theme
 
 set url='https://raw.githubusercontent.com/git-starsh/SpotX/refs/heads/main/run.ps1'
-set url2='https://git-starsh.github.io/SpotX/run.ps1'
+set url2='https://raw.githubusercontent.com/git-starsh/SpotX/main/run.ps1'
 set tls=[Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12;
 
 %SYSTEMROOT%\System32\WindowsPowerShell\v1.0\powershell.exe ^
